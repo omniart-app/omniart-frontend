@@ -1,0 +1,28 @@
+/* SkeletonLoader.css */
+.skeleton-loader {
+    width: 100%;
+    /* max-width: 400px;  */
+    background-color: #f0f0f000; /* Background color of the skeleton */
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 16px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skeleton-row {
+    height: 20px; /* Adjust the height of each loading row */
+    margin-bottom: 10px; /* Adjust the spacing between rows */
+    background: linear-gradient(90deg, transparent, #2f2d2d, transparent);
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite;
+  }
+  
+  @keyframes loading {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+  

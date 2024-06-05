@@ -1,0 +1,66 @@
+#signInModal button:focus {
+    box-shadow: none !important;
+    outline-width: 0;
+}
+#signInModal .card {
+    background:#222222;
+    border-radius:11px !important;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5) ;
+}
+@media only screen and (min-width:768px){
+    #signInModal .card {
+        width: calc(480px + 10 * ((100vw - 320px) / 680)) ;
+    }
+}
+#signInModal  .card-header{
+    border:0;
+    border-radius:11px !important;
+}
+#signInModal  .btn-success{
+    border-radius: 20px !important;
+    padding: 10px 25px;
+    background-color: #9641F6 !important;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: none;
+    color: #fff!important;
+}
+#signInModal  .btn-success:hover{
+    background-color: #5108a4 !important;
+}
+#signInModal  .card-header{
+    background:#222222 !important;
+    position: relative;
+}
+#signInModal  img{
+    width: 100px !important;
+}
+#signInModal  .card-body{
+    border-radius: 9px !important;
+}
+#signInModal  .card-1{
+    color: #9641F6 !important;
+}
+#signInModal  .cross{
+    cursor: pointer;
+    width: 45px !important;
+}
+/* .modal{
+    background: linear-gradient(rgba(3, 171, 255, 0.125), #e91ee202) !important;
+} */
+#signInModal  .modal-content{
+    background: transparent !important;
+}
+#signInModal .card-title {
+    font-size: 1.4rem;
+}
+#signInModal .card-subtitle {
+    margin-top: 15px;
+    font-size: 1.2rem!important;
+}
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0)!important;
+}
+.modal-backdrop:nth-of-type(2) {
+    display: none !important;  
+}
